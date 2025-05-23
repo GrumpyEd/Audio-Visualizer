@@ -11,3 +11,5 @@ Example picture of the bubble:
 ![Preview](bubble.png)
 
 [Visit CodePen for a live example.](https://codepen.io/Edijs-Gailis/pen/gbbVrbw)
+
+Tested on: localhost - Windows 10/11
