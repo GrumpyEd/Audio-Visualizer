@@ -7,9 +7,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #000; */
     overflow: hidden;
-    /* filter: drop-shadow(0 0 10px white); */
 }
 
 .container {
@@ -41,13 +39,6 @@ canvas {
     cursor: pointer;
 }
 
-
-
-
-
-
-
-/* imported */
 .resizeImage img {
     max-width: 100%;
     height: auto;
@@ -64,8 +55,6 @@ canvas {
 #right {
     float: right;
 }
-
-/* padding: {top right bottom left}*/
 
 .bg {
     background-image: url("../images/blue.jpg");
@@ -89,13 +78,9 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /*vertical-align: middle;*/
 }
 
 .bubble {
-    /* background: rgb(49,97,146);
-    background: linear-gradient(90deg, rgba(49,97,146,1) 15%, rgba(66,140,191,1) 50%, rgba(36,75,108,1) 85%); */
-
     background: radial-gradient(circle, rgba(42, 70, 192, 0.7) 5%, rgba(22, 54, 197, 0.5) 20%, rgba(85, 96, 255, 0.3) 45%, rgba(15, 84, 213, 0.3) 67%, rgb(74, 83, 206) 68%, rgb(173, 174, 240) 71%, rgba(19, 40, 68, 0.9) 72%);
     position: absolute;
     z-index: -1;
@@ -144,11 +129,3 @@ img {
         background-color: rgb(115, 40, 237);
     }
 }
-/* SNOW STARTS HERE */
-
-/* .snowflake {
-    font-family: Arial, sans-serif; // Ensure font-family is correct and the font is available 
-    color: white; // Ensure the color contrasts with the background 
-    display: block; // Ensure it is not set to `none` 
-    font-size: 12px; // Example size, ensure it is appropriate 
-} */
