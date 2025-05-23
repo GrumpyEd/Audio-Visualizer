@@ -23,7 +23,7 @@ function resizeCanvas() {
 resizeCanvas(); // Canvas size for points and shuffle on click trigger
 window.addEventListener('resize', resizeCanvas);
 
-function createPoints() { // Math to create line points
+function createPoints() { // Math to create line points and angles
     pointsUp = [];
     pointsDown = [];
     for (let angle = 0; angle < 360; angle += interval) {
@@ -268,7 +268,7 @@ function drawLine(points) { // In cahoots with the math in the beginning of the 
     let origin = points[0];
 
     ctx.beginPath();
-    ctx.strokeStyle = 'rgba(15, 84, 213,1)';
+    ctx.strokeStyle = 'rgba(15, 84, 213,1)'; // Color for the outline on top & bottom of the line circle
     ctx.lineJoin = 'miter';
     ctx.moveTo(origin.x, origin.y);
 
@@ -283,7 +283,7 @@ function drawLine(points) { // In cahoots with the math in the beginning of the 
 function connectPoints(pointsA, pointsB) {
     for (let i = 0; i < pointsA.length; i++) {
         ctx.beginPath();
-        ctx.strokeStyle = 'rgba(42, 70, 192,1)';
+        ctx.strokeStyle = 'rgba(42, 70, 192,1)'; // Color of lines inside the outlines
         ctx.moveTo(pointsA[i].x, pointsA[i].y);
         ctx.lineTo(pointsB[i].x, pointsB[i].y);
         ctx.stroke();
