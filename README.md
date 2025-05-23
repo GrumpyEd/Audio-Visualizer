@@ -9,4 +9,4 @@ This project started in 2019, during my internship at *Could Enterprise Systems*
 Example picture of the bubble: 
 ![Preview](bubble.png)
 
-[![Preview]Visit CodePen for a live example.](https://codepen.io/Edijs-Gailis/pen/gbbVrbw)
+[Visit CodePen for a live example.](https://codepen.io/Edijs-Gailis/pen/gbbVrbw)
