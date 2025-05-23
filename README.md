@@ -12,4 +12,4 @@ Example picture of the bubble:
 
 [Visit CodePen for a live example.](https://codepen.io/Edijs-Gailis/pen/gbbVrbw)
 
-Tested on: localhost - Windows 10/11
+Tested on: localhost - Windows 10/11 & Google Chrome (2019-2025)
