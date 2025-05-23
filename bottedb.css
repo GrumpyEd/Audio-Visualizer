@@ -1,0 +1,154 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #000; */
+    overflow: hidden;
+    /* filter: drop-shadow(0 0 10px white); */
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.call-to-action {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    width: 10000px;
+    height: 10000px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* imported */
+.resizeImage img {
+    max-width: 100%;
+    height: auto;
+}
+
+#left {
+    float: left;
+}
+
+#center {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+/* padding: {top right bottom left}*/
+
+.bg {
+    background-image: url("../images/blue.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*vertical-align: middle;*/
+}
+
+.bubble {
+    /* background: rgb(49,97,146);
+    background: linear-gradient(90deg, rgba(49,97,146,1) 15%, rgba(66,140,191,1) 50%, rgba(36,75,108,1) 85%); */
+
+    background: radial-gradient(circle, rgba(42, 70, 192, 0.7) 5%, rgba(22, 54, 197, 0.5) 20%, rgba(85, 96, 255, 0.3) 45%, rgba(15, 84, 213, 0.3) 67%, rgb(74, 83, 206) 68%, rgb(173, 174, 240) 71%, rgba(19, 40, 68, 0.9) 72%);
+    position: absolute;
+    z-index: -1;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    padding: 32px 16px;
+    top: 290px;
+    left: 710px;
+    box-shadow: 0 0 10px 5px rgb(57, 50, 94);
+}
+
+.bubble.animated {
+    animation: 3200ms pulsate infinite alternate ease-in-out;
+}
+
+.bubble2 {
+    background: linear-gradient(90deg, rgba(33, 29, 115, 1) 15%, rgba(85, 96, 255, 0.3) 35% rgba(66, 128, 231, 1) 50%, rgba(19, 40, 68, 0.9) 65% rgba(30, 30, 117, 1) 85%);
+    position: absolute;
+    z-index: -0.9;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    padding: 32px 16px;
+    top: 75px;
+    left: 75px;
+}
+
+.bubble2.animated {
+    animation: 3000ms pulsate infinite alternate ease-in-out;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+        background-color: rgb(61, 58, 238);
+    }
+
+    50% {
+        transform: scale(1.02);
+        background-color: rgba(61, 69, 180, 0.99);
+    }
+
+    100% {
+        transform: scale(1.01);
+        background-color: rgb(115, 40, 237);
+    }
+}
+/* SNOW STARTS HERE */
+
+/* .snowflake {
+    font-family: Arial, sans-serif; // Ensure font-family is correct and the font is available 
+    color: white; // Ensure the color contrasts with the background 
+    display: block; // Ensure it is not set to `none` 
+    font-size: 12px; // Example size, ensure it is appropriate 
+} */
