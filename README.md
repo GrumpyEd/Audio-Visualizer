@@ -7,6 +7,7 @@ The visualizer supports .mp3 files and is built with HTML, CSS, and JavaScript, 
 
 This project started in 2019, during my internship at *Could Enterprise Systems*, where I created a bubble to mimic the waves from the sea. 
 Example picture of the bubble: 
+
 ![Preview](bubble.png)
 
 [Visit CodePen for a live example.](https://codepen.io/Edijs-Gailis/pen/gbbVrbw)
